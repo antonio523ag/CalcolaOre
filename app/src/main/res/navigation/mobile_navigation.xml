@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_visualizza_dati">
+
+    <fragment
+        android:id="@+id/nav_visualizza_dati"
+        android:name="dev.antoniogrillo.calcolaore.ui.visualizza_dati.VisualizzaDatiFragment"
+        android:label="@string/menu_visualizza_dati"
+        tools:layout="@layout/fragment_visualizza_dati" />
+
+    <fragment
+        android:id="@+id/nav_aggiungi_corso"
+        android:name="dev.antoniogrillo.calcolaore.ui.aggiungi_corso.AggiungiCorsoFragment"
+        android:label="@string/menu_aggiungi_corso"
+        tools:layout="@layout/fragment_aggiungi_corso" />
+
+    <fragment
+        android:id="@+id/nav_aggiugni_lezione"
+        android:name="dev.antoniogrillo.calcolaore.ui.aggiungi_lezione.AggiungiLezioneFragment"
+        android:label="@string/menu_aggiungi_lezione"
+        tools:layout="@layout/fragment_aggiungi_lezione" />
+</navigation>

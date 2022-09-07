@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_visualizza_dati"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_visualizza_dati" />
+        <item
+            android:id="@+id/nav_aggiungi_corso"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/menu_aggiungi_corso" />
+        <item
+            android:id="@+id/nav_aggiugni_lezione"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/menu_aggiungi_lezione" />
+    </group>
+</menu>
